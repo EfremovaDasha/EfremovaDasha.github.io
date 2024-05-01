@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Istok+Web&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap" rel="stylesheet">
+    <title>Форма заказа</title>
+
+</head>
+<body>
+    <div class="forma">
+        <div class="container">
+
+            <div class="forma-line">
+                <div class="forma-logo">
+                    <img src="img/лог2.png" alt="" />
+                </div>
+                <div class="forma-title">
+                    Порадуй себя и своих близких!
+                </div>
+            </div>
+
+            <form action="#" method="post" target="_blank">
+                <div class="forma-text">
+                    <h2>Сделай заказ</h2>
+                </div>
+
+                <div class="form">
+                    <div class="form-left">
+
+                        <legend>Персональные данные</legend>
+                        <ul>
+                            <li>
+                                <label for="name">Имя:*</label>
+                                <input type="text" name="name" placeholder="Дарья Ефремова" id="name" required>
+                            </li>
+                            <li>
+                                <label for="age">Адрес:</label>
+                                <input type="text" name="adress" placeholder="Льва Толстого д3" id="adress" required>
+                            </li>
+                        </ul>
+
+                        <legend>Контакты</legend>
+                        <ul>
+                            <li>
+                                <label for="email">E-mail:*</label>
+                                <input type="email" name="mail" placeholder="efremo@gmail.com" id="email" required>
+                            </li>
+                            <li>
+                                <label for="number">Телефон:*</label>
+                                <input type="tel" name="phone" placeholder="+7 000 000-00-00" id="number" maxlength="21" required>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="form-right">
+
+                        <legend>Заказ</legend>
+                        <ul>
+                            <li>
+                                <label for="zakaz">Название продукта:*</label>
+                                <input type="text" name="name" placeholder="Трайфл Сникерс" "id=" name" required>
+
+                            </li>
+                        </ul>
+                        <legend>Время доставки</legend>
+                        <ul>
+                            <li>
+                                <label for="age">Время:</label>
+                                <input type="nomer" name="clock" placeholder="12:30" id="clock" min="0" max="23">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="itog">
+                    <div class="itog-knop">
+                        <button type="submit">Отправить</button>
+                    </div>
+                    <div class="itog-text">
+                        <p>* — Обязательные поля</p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
