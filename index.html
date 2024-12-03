@@ -3,6 +3,7 @@
 <html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,6 +12,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap" rel="stylesheet">
     <title>Главная</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K5JCNM5V0S"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-K5JCNM5V0S');
+    </script>
 
 </head>
 <body>
@@ -56,7 +67,7 @@
         <div class="container">
             <div class="header-line">
                 <div class="header-logo">
-                    <img src="лог2.png" alt="" />
+                    <img src="img/лог2.png" alt="" />
                 </div>
                 <div class="nav">
                     <a class="nav-item" href="index.html">Главная</a>
@@ -68,70 +79,63 @@
                     <a class="button" href="forma-zakaza.html">Заказать</a>
                 </div>
             </div>
-                <div class="cards-holder">
+            <div class="cards-holder">
 
-                    <div class="card">
+                <div class="card">
 
-                        <div class="card-image">
-                            <img class="card-img" src="card.png" />
-                        </div>
-
-                        <div class="card-title">
-                            Торты
-                        </div>
-
-
-
+                    <div class="card-image">
+                        <img class="card-img" src="img/card.png" />
                     </div>
-                    <div class="card">
 
-                        <div class="card-image">
-                            <img class="card-img" src="card1.png" />
-                        </div>
-
-                        <div class="card-title">
-                            Трайфлы
-                        </div>
-
-
-
+                    <div class="bn">
+                        <a class="butn" href="torty.html">Торты</a>
                     </div>
-                    <div class="card">
 
-                        <div class="card-image">
-                            <img class="card-img" src="card2.png" />
-                        </div>
+                </div>
+                <div class="card">
 
-                        <div class="card-title">
-                            Эклеры
-                        </div>
-
-
-
+                    <div class="card-image">
+                        <img class="card-img" src="img/card1.png" />
                     </div>
-                    <div class="card">
 
-                        <div class="card-image">
-                            <img class="card-img" src="card3.png" />
-                        </div>
-
-                        <div class="card-title">
-                            Клубника в шоколаде
-                        </div>
-
-
-
+                    <div class="bn">
+                        <a class="butn" href="traifl.html">Трайфлы</a>
                     </div>
+                </div>
+                <div class="card">
+
+                    <div class="card-image">
+                        <img class="card-img" src="img/card2.png" />
+                    </div>
+
+                    <div class="bn">
+                        <a class="butn" href="ekler.html">Эклеры</a>
+                    </div>
+
+                </div>
+                <div class="card">
+
+                    <div class="card-image">
+                        <img class="card-img" src="img/card3.png" />
+                    </div>
+
+                    <div class="bn">
+                        <a class="butn" href="klubnika.html">Клубника в шоколаде</a>
+                    </div>
+
+
+
                 </div>
             </div>
         </div>
-
+    </div>
+ 
     <div class="family">
         <div class="container">
 
             <div class="header-line">
                 <div class="header-logo">
-                    <img src="лог2.png" alt="" />
+                    <img src="img/лог2.png" alt="" />
                 </div>
                 <div class="nav">
                     <a class="nav-item" href="index.html">Главная</a>
@@ -147,11 +151,10 @@
             <div class="family-title">
                 Наша команда
             </div>
-
+            <input type="text" id="searchInput" placeholder="Поиск...">
             <div class="fam">
-
                 <div class="famile-image">
-                    <img src="ас.jpg" class="fam" />
+                    <img src="img/ас.jpg" class="fam" />
                     <div class="fam-text">
                         <p>
                             Администратор
@@ -162,7 +165,7 @@
                     </div>
                 </div>
                 <div class="famile-image">
-                    <img src="К.jpg" class="fam" />
+                    <img src="img/К.jpg" class="fam" />
                     <div class="fam-text">
                         <p>
                             Кондитер
@@ -176,7 +179,7 @@
                     </div>
                 </div>
                 <div class="famile-image">
-                    <img src="КО.jpg" class="fam" />
+                    <img src="img/КО.jpg" class="fam" />
                     <div class="fam-text">
                         <p>
                             Кондитер
@@ -190,7 +193,7 @@
                     </div>
                 </div>
                 <div class="famile-image">
-                    <img src="ПК.jpg" class="fam" />
+                    <img src="img/ПК.jpg" class="fam" />
                     <div class="fam-text">
                         <p>
                             Помощник кондитера
@@ -212,7 +215,7 @@
 
             <div class="header-line">
                 <div class="header-logo">
-                    <img src="лог2.png" alt="" />
+                    <img src="img/лог2.png" alt="" />
                 </div>
                 <div class="nav">
                     <a class="nav-item" href="index.html">Главная</a>
@@ -239,8 +242,21 @@
                         </p>
                     </div>
 
+
                     <div class="bn">
-                        <a class="butn" href="#">Оформить заказ</a>
+                        <a class="butn" href="forma-zakaza.html">Оформить заказ</a>
+                    </div>
+                    <div class="feedback-form">
+                        <h2>Форма обратной связи</h2>
+                        <form id="feedbackForm">
+                            <label for="email">Электронная почта:</label>
+                            <input type="email" id="email" required placeholder="Введите вашу электронную почту">
+
+                            <label for="phone">Телефон:</label>
+                            <input type="tel" id="phone" required placeholder="Введите ваш номер телефона">
+
+                            <button type="submit">Отправить</button>
+                        </form>
                     </div>
                 </div>
 
@@ -252,7 +268,7 @@
                         <p>
                             Адрес: г.Казань, ул.Баумана д.3
                         </p>
-                        <img src="karta.jpg"/>
+                        <img src="img/karta.jpg" />
                     </div>
                 </div>
             </div>
@@ -266,7 +282,7 @@
 
             <div class="dishes-line">
                 <div class="dishes-logo">
-                    <img src="лог2.png" alt="" />
+                    <img src="img/лог2.png" alt="" />
                 </div>
                 <div class="dishes-title">
                     Клубника в шоколаде
@@ -274,59 +290,44 @@
             </div>
             <div class="klub">
                 <div class="klub-image">
-                    <img src="9.jpg" class="klubnika" />
+                    <img src="img/9.jpg" class="klubnika" />
                     <div class="klubnika-text">
                         <p>
                             Набор 9 штук
                         </p>
                         <p>Цена: 450руб.</p>
-                        <div class="bn">
-                            <a class="buton" href="#">Выбрать</a>
-                        </div>
                     </div>
 
                 </div>
 
                 <div class="klub-image">
-                    <img src="16.jpg" class="klubnika" />
+                    <img src="img/16.jpg" class="klubnika" />
                     <div class="klubnika-text">
                         <p>
                             Набор 16 штук
                         </p>
                         <p> Цена: 450руб. </p>
                     </div>
-                    <div class="bn">
-                        <a class="buton" href="#">Выбрать</a>
-                    </div>
-
                 </div>
 
                 <div class="klub-image">
-                    <img src="20.jpg" class="klubnika" />
+                    <img src="img/20.jpg" class="klubnika" />
                     <div class="klubnika-text">
                         <p>
                             Набор 20 штук
                         </p>
                         <p> Цена: 450руб.</p>
                     </div>
-                    <div class="bn">
-                        <a class="buton" href="#">Выбрать</a>
-                    </div>
-
                 </div>
 
                 <div class="klub-image">
-                    <img src="25.jpg" class="klubnika" />
+                    <img src="img/25.jpg" class="klubnika" />
                     <div class="klubnika-text">
                         <p>
                             Набор 25 штук
                         </p>
                         <p>Цена: 450руб.</p>
                     </div>
-                    <div class="bn">
-                        <a class="buton" href="#">Выбрать</a>
-                    </div>
-
                 </div>
 
             </div>
@@ -337,7 +338,7 @@
 
             <div class="dishes-line">
                 <div class="dishes-logo">
-                    <img src="лог2.png" alt="" />
+                    <img src="img/лог2.png" alt="" />
                 </div>
                 <div class="dishes-title">
                     Эклеры
@@ -345,7 +346,7 @@
             </div>
             <div class="ekle">
                 <div class="ekle-image">
-                    <img src="6.jpg" class="ekler" />
+                    <img src="img/6.jpg" class="ekler" />
                     <div class="ekler-text">
                         <p>
                             Набор из 6 шт
@@ -357,14 +358,11 @@
                             шоколадная
                         </p>
                         <p>Цена: 450руб.</p>
-                        <div class="bn">
-                            <a class="buton" href="#">Выбрать</a>
-                        </div>
                     </div>
-
                 </div>
+
                 <div class="ekle-image">
-                    <img src="5.jpg" class="ekler" />
+                    <img src="img/5.jpg" class="ekler" />
                     <div class="ekler-text">
                         <p>
                             Набор из 5 шт
@@ -373,14 +371,11 @@
                             Начинка: варенная сгущенка
                         </p>
                         <p>Цена: 200руб.</p>
-                        <div class="bn">
-                            <a class="buton" href="#">Выбрать</a>
-                        </div>
                     </div>
-
                 </div>
+
                 <div class="ekle-image">
-                    <img src="4.jpg" class="ekler" />
+                    <img src="img/4.jpg" class="ekler" />
                     <div class="ekler-text">
                         <p>
                             Набор из 4 шт
@@ -389,9 +384,6 @@
                             Начинка: крем-брюле
                         </p>
                         <p>Цена: 300руб.</p>
-                        <div class="bn">
-                            <a class="buton" href="#">Выбрать</a>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -400,10 +392,9 @@
 
     <div class="dishes">
         <div class="container">
-
             <div class="dishes-line">
                 <div class="dishes-logo">
-                    <img src="лог2.png" alt="" />
+                    <img src="img/лог2.png" alt="" />
                 </div>
                 <div class="dishes-title">
                     Торты
@@ -411,7 +402,7 @@
             </div>
             <div class="tort">
                 <div class="tort-image">
-                    <img src="шт.jpg" class="tortik" />
+                    <img src="img/шт.jpg" class="tortik" />
                     <div class="tortik-text">
                         <p>
                             ШОКОЛАДНЫЙ
@@ -431,13 +422,10 @@
                         <p>
                             Цена: 1400-2200руб.
                         </p>
-                        <div class="bn">
-                            <a class="buton" href="#">Выбрать</a>
-                        </div>
                     </div>
                 </div>
                 <div class="tort-image">
-                    <img src="мд.jpg" class="tortik" />
+                    <img src="img/мд.jpg" class="tortik" />
                     <div class="tortik-text">
                         <p>
                             МОЛОЧНАЯ ДЕВОЧКА
@@ -458,13 +446,10 @@
                         <p>
                             Цена: 1400-2200руб.
                         </p>
-                        <div class="bn">
-                            <a class="buton" href="#">Выбрать</a>
-                        </div>
                     </div>
                 </div>
                 <div class="tort-image">
-                    <img src="мр.jpg" class="tortik" />
+                    <img src="img/мр.jpg" class="tortik" />
                     <div class="tortik-text">
                         <p>
                             МЕРЕНГОВЫЙ РУЛЕТ
@@ -472,13 +457,10 @@
                         <p>
                             Цена: 1150руб.
                         </p>
-                        <div class="bn">
-                            <a class="buton" href="#">Выбрать</a>
-                        </div>
                     </div>
                 </div>
                 <div class="tort-image">
-                    <img src="кб.jpg" class="tortik" />
+                    <img src="img/кб.jpg" class="tortik" />
                     <div class="tortik-text">
                         <p>
                             КРАСНЫЙ БАРХАТ
@@ -486,13 +468,10 @@
                         <p>
                             Цена: 1250руб.
                         </p>
-                        <div class="bn">
-                            <a class="buton" href="#">Выбрать</a>
-                        </div>
                     </div>
                 </div>
                 <div class="tort-image">
-                    <img src="ст.jpg" class="tortik" />
+                    <img src="img/ст.jpg" class="tortik" />
                     <div class="tortik-text">
                         <p>
                             СНИКЕРС
@@ -500,9 +479,6 @@
                         <p>
                             Цена: 1200руб.
                         </p>
-                        <div class="bn">
-                            <a class="buton" href="#">Выбрать</a>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -514,7 +490,7 @@
 
             <div class="dishes-line">
                 <div class="dishes-logo">
-                    <img src="лог2.png" alt="" />
+                    <img src="img/лог2.png" alt="" />
                 </div>
                 <div class="dishes-title">
                     Трайфлы
@@ -523,7 +499,7 @@
 
             <div class="traf">
                 <div class="traf-image">
-                    <img src="f.jpg" class="trafli" />
+                    <img src="img/f.jpg" class="trafli" />
                     <div class="trafli-text">
                         <p>
                             ФРУКТОВЫЙ
@@ -546,13 +522,10 @@
                         <p>
                             Цена: 250-300руб.
                         </p>
-                        <div class="bn">
-                            <a class="buton" href="#">Выбрать</a>
-                        </div>
                     </div>
                 </div>
                 <div class="traf-image">
-                    <img src="kt.jpg" class="trafli" />
+                    <img src="img/kt.jpg" class="trafli" />
                     <div class="trafli-text">
                         <p>
                             КРАСНЫЙ БАРХАТ
@@ -560,13 +533,10 @@
                         <p>
                             Цена: 250руб.
                         </p>
-                        <div class="bn">
-                            <a class="buton" href="#">Выбрать</a>
-                        </div>
                     </div>
                 </div>
                 <div class="traf-image">
-                    <img src="c.jpg" class="trafli" />
+                    <img src="img/c.jpg" class="trafli" />
                     <div class="trafli-text">
                         <p>
                             СНИКЕРС
@@ -574,13 +544,10 @@
                         <p>
                             Цена: 300руб.
                         </p>
-                        <div class="bn">
-                            <a class="buton" href="#">Выбрать</a>
-                        </div>
                     </div>
                 </div>
                 <div class="traf-image">
-                    <img src="t.jpg" class="trafli" />
+                    <img src="img/t.jpg" class="trafli" />
                     <div class="trafli-text">
                         <p>
                             ТИРАМИСУ
@@ -588,9 +555,6 @@
                         <p>
                             Цена: 250руб.
                         </p>
-                        <div class="bn">
-                            <a class="buton" href="">Выбрать</a>
-                        </div>
                     </div>
                 </div>
 
@@ -602,7 +566,7 @@
 
             <div class="forma-line">
                 <div class="forma-logo">
-                    <img src="лог2.png" alt="" />
+                    <img src="img/лог2.png" alt="" />
                 </div>
                 <div class="forma-title">
                     Порадуй себя и своих близких!
@@ -637,7 +601,7 @@
                             </li>
                             <li>
                                 <label for="number">Телефон:*</label>
-                                <input type="tel" name="phone" placeholder="+7 000 000-00-00" id="number" maxlength="21" required>
+                                <input type="tel" name="phone" placeholder="+7 000 000-00-00" id="phone" required>
                             </li>
                         </ul>
                     </div>
@@ -673,6 +637,22 @@
             </form>
         </div>
     </div>
+
+    <footer>
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+        </div>
+
+        <ul class="menu">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="katalog.html">Каталог</a></li>
+            <li><a href="about.html">Наша команда</a></li>
+            <li><a href="kontakt.html">Контакты</a></li>
+        </ul>
+        <p>©2024 Кондитерская у вашего дома | Печем для Вас с любовью</p>
+    </footer>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
